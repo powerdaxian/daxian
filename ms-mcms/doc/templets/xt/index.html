@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html >
+<head>
+	<meta charset="utf-8">
+<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>唐总监控</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="shortcut icon"  href="{ms:globalskin.url/}images/favicon.gif"/>
+<link rel="stylesheet"   href="{ms:globalskin.url/}css/style.css" media="screen"/><!-- MAIN STYLE CSS FILE -->
+<link rel="stylesheet"   href="{ms:globalskin.url/}css/responsive.css" media="screen"/><!-- RESPONSIVE CSS FILE -->
+<link rel="stylesheet"   id="style-color"    href="{ms:globalskin.url/}css/colors/blue-color.css" media="screen"/><!-- DEFAULT BLUE COLOR CSS FILE -->
+<link rel="stylesheet"   href="{ms:globalskin.url/}css/prettyPhoto.css" media="screen"/><!--PRETTYPHOTO CSS FILE -->
+<link rel="stylesheet"   href="{ms:globalskin.url/}css/font-awesome/font-awesome.min.css" media="screen"/><!-- FONT AWESOME ICONS CSS FILE -->
+<link rel="stylesheet"   href="{ms:globalskin.url/}css/layer-slider.css" media="screen"/><!-- LAYER SLIDER CSS FILE -->
+ <link rel="stylesheet"   href="{ms:globalskin.url/}css/revolution-slider.css" media="screen"/><!-- REVOLUTION SLIDER CSS FILE -->
+<!-- All JavaScript Files (FOR FASTER LOADING OF YOUR SITE, REMOVE ALL JS PLUGINS YOU WILL NOT USE)-->
+
+
+<!-- layui -->
+<link rel="stylesheet"  href="{ms:globalskin.url/}js/layui/css/layui.css"/>
+<link rel="stylesheet"  href="{ms:globalskin.url/}css/customNew.css"/>
+<link rel="stylesheet"  href="{ms:globalskin.url/}css/zzsc.css"/>
+
+</head>
+<body>
+<div id="container">
+	<!-- main container starts-->
+	<div id="wrapp">
+		<!-- main wrapp starts-->
+		<header id="header">
+		 <div  style="width:100%;margin-bottom:12px">
+ 		</div>
+ 		<div class="container">
+			<div class="head-wrapp">
+				<a  href="@{/index}" id="logo"><img  src="{ms:globalskin.url/}images/logo.png" alt="唐总监控"/></a>
+				 &nbsp; &nbsp; &nbsp; &nbsp;<span style="font-size: 21px;font-weight: bold;">专业专注 质量至上 诚信经营 科技创新</span>
+				<!--your logo-->
+				<nav class="top-search">
+				<!-- search starts-->
+				<br/>
+ 					<button class="search-btn"></button>
+					<input class="search-field" type="text" onblur="if(this.value=='')this.value='搜索';" onfocus="if(this.value=='搜索')this.value='';" value="搜索"/>
+ 				</nav>
+				<!--search ends -->
+			</div>  
+		</div>
+		<div id="main-navigation">
+			<!--main navigation wrapper starts --> 
+			<div class="container">
+				<ul class="main-menu">
+					<li><a href="index.html" id="current">首页</a>
+ 					</li>
+					<li><a href="#">产品及服务</a>
+					<!-- Mega Menu / Start -->
+					<ul class="four-columns">
+						<li class="one">
+						<h5>软件产品</h5>
+						<ol>
+							<li><a  href="@{/about-us}"  ><i class="icon-group"></i>电信认证</a></li>
+							<li><a href="services.html"><i class="icon-cog"></i>短信服务</a></li>
+							<li><a href="faq.html"><i class="icon-question-sign"></i>个人身份认证</a></li>
+						    <li><a href="team-member.html"><i class="icon-user"></i>系统开发</a></li>
+ 							<li><a href="team-member.html"><i class="icon-user"></i>系统集成</a></li>
+ 						</ol>
+						</li>
+						<li class="one">
+						<h5>硬件产品</h5>
+						<ol>
+							<li><a href="left-sidebar.html"><i class="icon-circle-arrow-left"></i>LED显示屏</a></li>
+							<li><a href="right-sidebar.html"><i class="icon-circle-arrow-right"></i>摄像头</a></li>
+							<li><a href="404-error.html"><i class="icon-warning-sign"></i>监控器</a></li>
+							<li><a href="clients.html"><i class="icon-quote-left"></i>闭路电视</a></li>
+							 <li><a href="clients.html"><i class="icon-quote-left"></i>监控设备</a></li>
+							
+						</ol>
+						</li>
+						<li class="one">
+						<h5>技术服务</h5>
+						<ol>
+							<li><a href="elements.html"><i class=" icon-cogs"></i>监控方案实施</a></li>
+							<li><a href="icons.html"><i class="icon-th-large"></i>监控安装</a></li>
+							<li><a href="pricing-tables.html"><i class=" icon-table"></i>监控维修</a></li>
+							<li><a href="typography.html"><i class="icon-text-height"></i>报警器安装</a></li>
+						</ol>
+						</li>
+						<li class="one">
+						<h5>产品销售</h5>
+						<ol>
+							<li><a href="portfolio-2.html"><i class=" icon-lightbulb"></i>监控设备</a></li>
+							<li><a href="portfolio-3.html"><i class=" icon-suitcase"></i>电线、电缆</a></li>
+							<li><a href="portfolio-4.html"><i class="icon-heart"></i>防盗设备</a></li>
+ 						</ol>
+						</li>
+					</ul>
+					<!-- Mega Menu / End -->
+					</li>
+					<li><a href="#"> 客户案例</a>
+					<!-- Second Level / Start -->
+					<ul>
+						<li><a href="portfolio-2.html">智能监控</a></li>
+						<li><a href="portfolio-3.html">政府政务</a></li>
+						<li><a href="portfolio-4.html">教育科研</a></li>
+						<li><a href="single-project-small.html">软件开发</a></li>
+						<li><a href="single-project-large.html">房地产</a></li>
+						<li><a href="single-project-large.html">酒店行业</a></li>
+						<li><a href="single-project-large.html">医疗卫生</a></li>
+						<li><a href="single-project-large.html">通讯工程</a></li>
+						<li><a href="single-project-large.html">系统集成</a></li>
+ 				   </ul>
+					<!-- Second Level / End -->
+					</li>
+					<li><a href="#">企业文化</a>
+					 
+					<li><a href="#">售后服务</a>
+					 
+					</li>
+					<li><a href="#"> 新闻动态</a>
+					<!-- Second Level / Start -->
+					<ul>
+						<li><a href="blog-small.html">公司新闻</a></li>
+						<li><a href="blog-medium.html">行业新闻</a></li>
+ 					</ul>
+					<!-- Second Level / End -->
+					</li>
+					<li><a href="contact.html">关于我们</a></li>
+				</ul>
+				<!-- main navigation ends-->
+				<div class="after-nav-info">
+					<h4>联系手机: 17316911856</h4>
+				</div>
+			</div>
+		</div>
+		<!--main navigation wrapper ends -->
+		</header>
+		<!-- header ends-->
+		<div id="layerslider">
+			<!--layer slider starts-->
+			<div class="slider-shadow-top">
+			</div>
+			<div class="slider-shadow-bottom">
+			</div>
+			<div class="ls-layer" style="slidedirection: top; slidedelay: 6000; durationin: 1500; durationout: 1500; delayout: 500;">
+				<img src="{ms:globalskin.url/}images/slider/layer/1/slide1-bg.png" class="ls-bg" alt="">
+				<h1 class="ls-s3 ls_large_text_01" style="position: absolute; top:100px; left: 490px; slidedirection : top; slideoutdirection : top; durationin : 3000; durationout : 750; easingin : easeInOutQuint; easingout : easeInBack; delayin : 1000;">
+				我们致力于<br>
+				专业服务</h1>
+				<h4 class="ls-s3 l1-s1 ls_large_text_02" style="position: absolute; top:210px; left: 490px; slidedirection : bottom; slideoutdirection : bottom; durationin : 3000; durationout : 750; easingin : easeInOutQuint; easingout : easeInBack; delayin : 1000;">
+				信息电子技术服务、电子安全设备.</h4>
+				<a class="button huge color round ls-s8" href="#" style="position: absolute; top:270px; left: 490px; slidedirection : bottom; slideoutdirection : bottom; durationin : 3000; durationout : 750; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 1100;">产品服务</a>	
+		 	</div>
+			<div class="ls-layer" style="slidedirection: right; slidedelay: 5000; durationin: 1500; durationout: 1500;">
+				<img src="{ms:globalskin.url/}images/slider/layer/2/slide-bg.png" class="ls-bg" alt="">
+ 				<h1 class="ls-s3 ls_large_text_01" style="position: absolute; font-family:Arial; top:100px; left: 0px; slidedirection : right; slideoutdirection : left; durationin : 3000; durationout : 750; easingin : easeInOutQuint; easingout : easeInBack; delayin : 400;">
+ 				系统集成</h1>
+				<h4 class="ls-s3 l1-s1 ls_large_text_02" style="position: absolute; top:160px; left: 0px; border-color:#fff; slidedirection : bottom; slideoutdirection : left; durationin : 3000; durationout : 750; 
+				easingin : easeInOutQuint; easingout : easeInBack; delayin : 500;">电子认证 &amp; 身份认证</h4>
+				<a class="button huge color round ls-s8" href="#" style="position: absolute; top:210px; left: 0px; slidedirection : bottom; slideoutdirection : bottom; durationin : 3000; durationout : 750; 
+				easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0;">了解详细</a>
+			</div>
+			<div class="ls-layer" style="slidedirection: right; slideoutdirection : top; slidedelay: 5000; durationin: 1500; durationout: 1500; delayout: 500;">
+				<img src="{ms:globalskin.url/}images/slider/layer/3/slide3-bg.png" class="ls-bg" alt="">
+ 				<h1 class="ls-s3 ls_large_text_01" style="position: absolute; top:120px; left: 400px; slidedirection : top; slideoutdirection : top; durationin : 3000; durationout : 750; easingin : easeInOutQuint; easingout : easeInBack; delayin : 600;">
+ 				监控设备批发</h1>
+				<h4 class="ls-s3 l1-s1 ls_large_text_02" style="position: absolute; top:170px; left: 400px; slidedirection : bottom; slideoutdirection : bottom; 
+				durationin : 3000; durationout : 750; easingin : easeInOutQuint; easingout : easeInBack; delayin : 700;">
+				安保设备...</h4>
+				<a class="button huge color round ls-s8" href="#" style="position: absolute; top:210px; left: 400px; slidedirection : bottom; slideoutdirection : bottom; 
+				durationin : 3000; durationout : 750; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 800;">了解详细</a>
+			</div>
+			<div class="ls-layer" style="slidedirection: top; slideoutdirection : top; slidedelay: 5000; durationin: 1500; durationout: 1500; delayout: 500;">
+				<img src="{ms:globalskin.url/}images/slider/layer/4/slide4-bg.png" class="ls-bg" alt="">
+ 				<h1 class="ls-s3 ls_large_text_01" style="position: absolute; top:100px; left: 0px; slidedirection : top; slideoutdirection : top; durationin : 3000; durationout : 750; easingin : easeInOutQuint; easingout : easeInBack; delayin : 500;">
+ 				软件开发 &amp; 软件咨询</h1>
+				<h4 class="ls-s3 l1-s1 ls_large_text_02" style="position: absolute; top:160px; left: 0px; slidedirection : bottom; slideoutdirection : bottom; durationin : 3000; durationout : 750; 
+				easingin : easeInOutQuint; easingout : easeInBack; delayin : 600;">提供软件开发、系统集成、二次开发等服务</h4>
+				<a class="button huge color round ls-s8" href="#" style="position: absolute; top:210px; left: 0px; slidedirection : bottom; slideoutdirection : bottom; durationin : 3000; durationout : 
+				750; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 700;">了解下</a>
+			</div>
+		</div>
+ 		<!--layer slider ends-->
+		<div id="content">
+		 		<div id="header-links">
+			<div class="container">
+				<div class="one-half">
+					<ul class="contact-links">
+						<!-- header social links starts-->
+						<li><a href="#"><i class="icon-bullhorn"></i>监控相关信息展示............. </a></li>
+ 					</ul>
+				</div>
+		 
+			</div>
+		</div>
+			<!-- 新增 -->
+			<div class="container">
+				<div class="indexNavLeft">
+					<div class="indexNavLeft-navTitle">
+						客户案例
+					</div>
+					<ul class="layui-nav layui-nav-tree layui-inline"  lay-filter="demo" style="margin-right: 3px;width:250px; min-height: 550px;">
+							<li class="layui-nav-item"><a href="">智能监控</a></li>
+							<li class="layui-nav-item"><a href="">政府政务</a></li>
+							<li class="layui-nav-item"><a href="">教育科研</a></li>
+							<li class="layui-nav-item"><a href="">软件开发</a></li>
+							<li class="layui-nav-item"><a href="">房地产</a></li>
+							<li class="layui-nav-item"><a href="">酒店行业</a></li>
+							<li class="layui-nav-item"><a href="">医疗卫生</a></li>
+							<li class="layui-nav-item"><a href="">通讯工程</a></li>
+							<li class="layui-nav-item"><a href="">系统集成</a></li>
+							<li class="layui-nav-item"><a href="">硬件批发</a></li>
+							<li class="layui-nav-item"><a href="">二次开发</a></li>
+  					<li class="layui-nav-item"><a href="">咨询服务</a></li>
+					</ul>
+				</div>
+				<div class="indexcontentRight">
+					<div class="indexcontentRight-title">
+						<p>客户案例</p>
+						<a href="#">更多>></a>
+					</div>
+					<div class="news-list">
+						<div class="news-row">
+							<a href="#">
+								<img src="{ms:globalskin.url/}images/slider/flex-slider-02.jpg" height="180">
+								<p>示例展示标题</p>
+							</a>
+						</div>
+						<div class="news-row">
+							<a href="#">
+								<img src="{ms:globalskin.url/}images/slider/flex-slider-02.jpg" height="180">
+								<p>示例展示标题</p>
+							</a>
+						</div>
+						<div class="news-row">
+							<a href="#">
+								<img src="{ms:globalskin.url/}images/slider/flex-slider-02.jpg" height="180">
+								<p>示例展示标题</p>
+							</a>
+						</div>
+						<div class="news-row">
+							<a href="#">
+								<img src="{ms:globalskin.url/}images/slider/flex-slider-02.jpg" height="180">
+								<p>示例展示标题</p>
+							</a>
+						</div>
+						<div class="news-row">
+							<a href="#">
+								<img src="{ms:globalskin.url/}images/slider/flex-slider-02.jpg" height="180">
+								<p>示例展示标题</p>
+							</a>
+						</div>
+						<div class="news-row">
+							<a href="#">
+								<img src="{ms:globalskin.url/}images/slider/flex-slider-02.jpg" height="180">
+								<p>示例展示标题</p>
+							</a>
+						</div>
+						 	<div class="news-row">
+							<a href="#">
+								<img src="{ms:globalskin.url/}images/slider/flex-slider-02.jpg" height="180">
+								<p>示例展示标题</p>
+							</a>
+						</div>
+						<div class="news-row">
+							<a href="#">
+								<img src="{ms:globalskin.url/}images/slider/flex-slider-02.jpg" height="180">
+								<p>示例展示标题</p>
+							</a>
+						</div>
+						<div class="news-row">
+							<a href="#">
+								<img src="{ms:globalskin.url/}images/slider/flex-slider-02.jpg" height="180">
+								<p>示例展示标题</p>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--home intro ends-->
+ 			<div class="home-intro"><!-- home intro starts -->
+				<div class="container">
+					<div class="three-fourth">
+						<h4>专业 铸就品质 服务 赢得信赖t</h4>
+						<p>
+							 电子产品研发；信息电子技术服务；
+楼宇设备自控系统工程服务、保安监控及防盗报警系统工程服务
+						</p>
+					</div>
+					<div class="one-fourth">
+						<a href="#" class="button grey huge round">联系我们</a>
+					</div>
+				</div>
+			</div>
+			
+			<div class="container">
+						  <div  style="text-align: center;">
+ 		       		 	<h1>企业文化</h1>
+ 		       		 	<br/>
+ 			    </div>
+				<ul id="filterable">
+					<li><a data-categories="*" class="active">所有</a></li>
+					<li><a data-categories="print">公司大楼</a></li>
+					<li><a data-categories="design">办公室</a></li>
+					<li><a data-categories="illustration">旅游</a></li>
+					<li><a data-categories="photography">生活区</a></li>
+					<li><a data-categories="development">比赛</a></li>
+				</ul>
+				<ul id="portfolio-container" class="three-columns isotope" style="position: relative; overflow: hidden; height: 936px;">
+					<li class="isotope-item  print" data-categories="print" style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 0px);">
+						<div class="item-wrapp">
+								<div class="portfolio-item">
+								 	 	<a href="images/portfolio/portfolio-item-2.jpg" data-rel="prettyPhoto" class="item-preview"><i class="icon-zoom-in"></i></a>
+  									<img src="{ms:globalskin.url/}images/portfolio/portfolio-item-1.jpg" alt="">
+								</div>
+								<div class="portfolio-item-title">
+ 									<p>
+										研发大楼
+									</p>
+								</div>
+							</div>
+					</li>
+					
+					<li class="isotope-item   print" data-categories="print" style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 0px);">
+						<div class="item-wrapp">
+								<div class="portfolio-item">
+ 									<a href="images/portfolio/portfolio-item-2.jpg" data-rel="prettyPhoto" class="item-preview"><i class="icon-zoom-in"></i></a>
+									<img src="{ms:globalskin.url/}images/portfolio/portfolio-item-2.jpg" alt="">
+								</div>
+								<div class="portfolio-item-title">
+ 									<p>
+										设计中心
+									</p>
+								</div>
+							</div>
+					</li>
+					
+					<li class="isotope-item design" style="position: absolute; left: 0px; top: 0px; transform: translate(620px, 0px);">
+						<div class="item-wrapp">
+								<div class="portfolio-item">
+ 									<a href="images/portfolio/portfolio-item-5.jpg" data-rel="prettyPhoto" class="item-preview"><i class="icon-zoom-in"></i></a>
+									<img src="{ms:globalskin.url/}images/portfolio/portfolio-item-5.jpg" alt="">
+								</div>
+								<div class="portfolio-item-title">
+ 									<p>
+										办公区
+									</p>
+								</div>
+							</div>
+					</li>
+					<li class="isotope-item photography design" data-categories="photography" style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 312px);">
+						<div class="item-wrapp">
+								<div class="portfolio-item">
+ 									<a href="images/portfolio/portfolio-item-6.jpg" data-rel="prettyPhoto" class="item-preview"><i class="icon-zoom-in"></i></a>
+									<img src="{ms:globalskin.url/}images/portfolio/portfolio-item-6.jpg" alt="">
+								</div>
+								<div class="portfolio-item-title">
+ 									<p>
+										 办公区
+									</p>
+								</div>
+							</div>
+					</li>
+					
+					<li class="isotope-item photography" data-categories="photography" style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 312px);">
+						<div class="item-wrapp">
+								<div class="portfolio-item">
+ 									<a href="images/portfolio/portfolio-item-8.jpg" data-rel="prettyPhoto" class="item-preview"><i class="icon-zoom-in"></i></a>
+									<img src="{ms:globalskin.url/}images/portfolio/portfolio-item-8.jpg" alt="">
+								</div>
+								<div class="portfolio-item-title">
+ 									<p>
+									旅游
+									</p>
+								</div>
+							</div>
+					</li>
+					
+
+					<li class="isotope-item development photography" data-categories="development photography" style="position: absolute; left: 0px; top: 0px; transform: translate(620px, 312px);">
+							<div class="item-wrapp">
+								<div class="portfolio-item">
+ 									<a href="images/portfolio/portfolio-item-9" class="item-preview" data-rel="prettyPhoto"><i class="icon-zoom-in"></i></a>
+									<img src="{ms:globalskin.url/}images/portfolio/portfolio-item-9.jpg" alt="">
+								</div>
+								<div class="portfolio-item-title">
+ 									<p>
+										旅游旅游旅游
+									</p>
+								</div>
+							</div>
+					</li>
+					<li class="isotope-item   illustration" data-categories=" illustration" style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 624px);">
+						<div class="item-wrapp">
+								<div class="portfolio-item">
+ 									<a href="images/portfolio/portfolio-item-10.jpg" class="item-preview" data-rel="prettyPhoto"><i class="icon-zoom-in"></i></a>
+									<img src="{ms:globalskin.url/}images/portfolio/portfolio-item-10.jpg" alt="">
+								</div>
+								<div class="portfolio-item-title">
+ 									<p>
+										生活区
+									</p>
+								</div>
+							</div>
+					</li>
+					
+									<li class="isotope-item illustration" data-categories="illustration" style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 624px);">
+						<div class="item-wrapp">
+								<div class="portfolio-item">
+ 									<a href="images/portfolio/portfolio-item-11.jpg" class="item-preview" data-rel="prettyPhoto"><i class="icon-zoom-in"></i></a>
+									<img src="{ms:globalskin.url/}images/portfolio/portfolio-item-11.jpg" alt="">
+								</div>
+								<div class="portfolio-item-title">
+ 									<p>
+									办公室一区
+									</p>
+								</div>
+							</div>
+					</li>
+					
+					
+	
+					<li class="isotope-item design development illustration" data-categories="design development illustration" style="position: absolute; left: 0px; top: 0px; transform: translate(620px, 624px);">
+						<div class="item-wrapp">
+								<div class="portfolio-item">
+ 									<a href="images/portfolio/portfolio-item-12.jpg" class="item-preview" data-rel="prettyPhoto"><i class="icon-zoom-in"></i></a>
+									<img src="{ms:globalskin.url/}images/portfolio/portfolio-item-12.jpg" alt="">
+								</div>
+								<div class="portfolio-item-title">
+ 									<p>
+									办公室一区
+									</p>
+								</div>
+							</div>
+					</li>
+ 				</ul>
+ 				 
+			</div>
+		
+			<div class="intro-features">
+			
+			<div id="content">
+ 		       <div  style="text-align: center;">
+ 		       		 	<h1>关于我们</h1>
+ 			</div>
+			<div class="container">
+				<div class="one">
+					<section class="flex-container">
+  						 <img src="{ms:globalskin.url/}images/slider/slider-01.jpg" alt=" "><a href="images/slider/slider-01.jpg" class="product-item-preview" data-rel="prettyPhoto"><i class="icon-zoom-in"></i></a>
+  					</section>
+				</div>
+ 		
+ 					<h2>湖南绍华信息科技有限公司</h2>
+							<p>
+								&nbsp;&nbsp;&nbsp;湖南绍华信息科技有限公司成立于2011年，是一家大型民营企业，实行现代化企业管理。是湖南省安全技术防范协会会员单位。目前已具有湖南省安全技术防范系统设计、施工、维修壹级资质，信息系统集成及服务三级资质
+							</p>
+							<p>
+&nbsp;&nbsp;&nbsp;湖南绍华信息科技有限公司主要从事监控电视系统；报警系统；门禁一卡通系统；电子巡更系统；停车场泊位管理系统；楼宇对讲系统；家居智能化，宾馆酒店智，能源管理系统；背景音乐系统及公共广播系统；计算机局域网系统；办公自动化系统；多媒体教室、多功能会议室系统；卫星电视和有线电视系统；通信网络及综合布线系统；弱电机房的设计与装修与灯光系统以及各种弱电安防工程的设计、方案制作及施工。							</p>
+  					
+  								<p>
+ &nbsp;&nbsp;&nbsp;本公司拥有一批长期从事安防、系统集成经验丰富的工程技术人员，能根据工程的实际情况和特殊作用, 并综合以往所做智能化系统相关工程的实际经验，将先进的电子技术、传感技术、电视技术、通讯技术等有机的综合在一起，优化出一系列最富技术特色和竞争力的工程设计、安装方案，并积累了丰富的专业知识。
+
+       
+
+公司本着“以人为本”“科技领先”“专业服务”“精益求精”的精神，愿与各方朋友携手共进，互惠互利，共创美好未来！
+ 							</p>
+  						</div>
+ 			</div>
+			
+ 			<br/>	<br/>
+ 						<div class="intro-features">
+ 			
+			<div class="container">
+			
+			   <div  style="text-align: center;">
+ 		       		 	<h1>最新新闻动态</h1>
+ 			</div>
+ 			<div><br/></div>
+				<div class="one">
+					<div class="three-fourth">
+						<div class="blog-post layout-2" style="padding-bottom:5px;margin-bottom:5px;">
+							<div class="media-holder">
+								<div class="item-wrapp">
+									<div class="blog-item small">
+										<a href="single-project-small.html" class="item-permalink"><i class="icon-link"></i></a>
+										<a href="images/blog/blog-small-01.jpg" data-rel="prettyPhoto" class="item-preview"><i class="icon-zoom-in"></i></a>
+										<img src="" alt="">
+									</div>
+								</div>
+							</div>
+							<div class="permalink">
+								<h4><a href="blog-post.html">
+ 智能监控发布</a></h4>
+							</div>
+ 
+							<!-- End post-meta -->
+							<div class="post-intro">
+								<p>
+智能监控发布智能监控发布智能监控发布智能监控发布智能监控发布智能监控发布智能智能监控发布智能监控发布
+监控发布智能监控发布智能监控发布智能监控发布智能监控发布智能监控发布								</p>
+								<br>
+								<p>
+									<a href="blog-post.html" class="button simple-grey small round">查看详细</a>
+								</p>
+							</div>
+						</div>
+						<div class="blog-post layout-2" style="padding-bottom:5px;margin-bottom:5px;">
+							<div class="media-holder">
+								<div class="item-wrapp">
+									<div class="blog-item small">
+										<a href="single-project-small.html" class="item-permalink"><i class="icon-link"></i></a>
+										<a href="images/blog/blog-small-02.jpg" data-rel="prettyPhoto" class="item-preview"><i class="icon-zoom-in"></i></a>
+ 									</div>
+								</div>
+							</div>
+							<div class="permalink">
+								<h4><a href="blog-post.html">区块链监控系统</a></h4>
+							</div>
+			 
+							<!-- End post-meta -->
+							<div class="post-intro">
+								<p>
+区块链监控系统区块链监控系统区块链监控系统区块链监控系统区块链监控系统区块链监控系统区块链监控系统区块链监控系统区块链监控系统区块链监控系统区块链监控系统区块链监控系统区块链监控系统区块链监控系统区块链监控系统区块链监控系统区块链监控系统区块链监控系统区块链监控系统								</p>
+								<br>
+								<p>
+									<a href="blog-post.html" class="button simple-grey small round">查看详细</a>
+								</p>
+							</div>
+   						</div>
+									<div class="blog-post layout-2" style="padding-bottom:5px;margin-bottom:5px;">
+							<div class="media-holder">
+								<div class="item-wrapp">
+									<div class="blog-item small">
+										<a href="single-project-small.html" class="item-permalink"><i class="icon-link"></i></a>
+										<a href="images/blog/blog-small-02.jpg" data-rel="prettyPhoto" class="item-preview"><i class="icon-zoom-in"></i></a>
+ 									</div>
+								</div>
+							</div>
+							<div class="permalink">
+								<h4><a href="blog-post.html">保安系统助理破案</a></h4>
+							</div>
+			 
+							<!-- End post-meta -->
+							<div class="post-intro">
+								<p>
+								保安系统助理破案保安系统助理破案保安系统助理破案保安系统助理破案保安系统助理破案保安系统助理破案保安系统助理破案保安系统助理破案保安系统助理破案保安系统助理破案保安系统助理破案保安系统助理破案保安系统助理破案保安系统助理破案保安系统助理破案保安系统助理破案保安系统助理破案
+ 								</p>
+								<br>
+								<p>
+									<a href="blog-post.html" class="button simple-grey small round">查看详细</a>
+								</p>
+							</div>
+  						</div>
+    					</div>
+    					<div class="one-fourth sidebar right">
+  								<h1>联系我们</h1>
+ 								<p style="font-size: 20px;">湖南绍华信息技术有限公司</p>
+ 					 <ul class="simple-list">
+						<li><i class="icon-check-sign"></i>业务负责人：0731-84252503</li>
+							<li><i class="icon-check-sign"></i>互联网业务：17316911856  （唐总）</li>
+ 							<li><i class="icon-check-sign"></i>电话：17316911856  （唐总）</li>
+							<li><i class="icon-check-sign"></i>邮箱：747850953@qq.com</li>
+							 <li><i class="icon-check-sign"></i>地址：湖南省长沙市雨花区人民中路238号1712房</li>
+  					</ul>
+  					</div>
+ 				</div>
+			</div>
+	  </div>
+			
+				</div>
+			<div class=" clients-wrapp" style="background:#f6f7fb;">
+				<div class="container">
+					<div class="flexslider clients-slider "><!-- flex slider starts -->
+						<ul class="slides client-block">
+							<li>
+							<div class="one-fifth">
+								<a href="#" class="tooltip" title="Some Clients Name"><img src="{ms:globalskin.url/}images/clients/client-1.png" alt=""/></a>
+							</div>
+							<div class="one-fifth">
+								<a href="#" class="tooltip" title="Some Clients Name"><img src="{ms:globalskin.url/}images/clients/client-2.png" alt=""/></a>
+							</div>
+							<div class="one-fifth">
+								<a href="#" class="tooltip" title="Some Clients Name"><img src="{ms:globalskin.url/}images/clients/client-3.png" alt=""/></a>
+							</div>
+							<div class="one-fifth">
+								<a href="#" class="tooltip" title="Some Clients Name"><img src="{ms:globalskin.url/}images/clients/client-4.png" alt=""/></a>
+							</div>
+							<div class="one-fifth ">
+								<a href="#" class="tooltip" title="Some Clients Name"><img src="{ms:globalskin.url/}images/clients/client-5.png" alt=""/></a>
+							</div>
+							</li>
+							<li>
+							<div class="one-fifth">
+								<a href="#" class="tooltip" title="Some Clients Name"><img src="{ms:globalskin.url/}images/clients/client-6.png" alt=""/></a>
+							</div>
+							<div class="one-fifth">
+								<a href="#" class="tooltip" title="Some Clients Name"><img src="{ms:globalskin.url/}images/clients/client-5.png" alt=""/></a>
+							</div>
+							<div class="one-fifth">
+								<a href="#" class="tooltip" title="Some Clients Name"><img src="{ms:globalskin.url/}images/clients/client-4.png" alt=""/></a>
+							</div>
+							<div class="one-fifth">
+								<a href="#" class="tooltip" title="Some Clients Name"><img src="{ms:globalskin.url/}images/clients/client-3.png" alt=""/></a>
+							</div>
+							<div class="one-fifth ">
+								<a href="#" class="tooltip" title="Some Clients Name"><img src="{ms:globalskin.url/}images/clients/client-2.png" alt=""/></a>
+							</div>
+							</li>
+						</ul>
+					</div><!-- flex slider ends -->
+				</div>
+			</div>
+		</div>
+ 
+		<section id="copyrights" style="padding: 40px 0 30px 0;">
+		<section class="container"  style="text-align: center; font-size: 18px;color: #fff">
+ 			<p>
+				 Copyright &copy; 2018.Company name All rights reserved.湖南绍华信息技术有限公司
+  			</p>
+  			<p>
+				地址湖南省长沙市雨花区人民中路238号1712房
+  			</p>
+ 		</section>
+		</section>
+	</div>
+	<!-- main wrapp starts-->
+</div>
+<!-- main container ends-->
+<div class="yb_conct">
+  <div class="yb_bar">
+    <ul>
+      <li class="yb_top">返回顶部</li>
+      <li class="yb_phone">17316911856</li>
+      <li class="yb_QQ">
+      	<a target="_blank" href="#" title="即刻发送您的需求">在线咨询</a>
+      </li>
+      <li class="yb_ercode" style="height:53px;">微信二维码 <br>
+        <img class="hd_qr" src="{ms:globalskin.url/}images/weixin.png" width="125" alt="关注我们"> </li>
+    </ul>
+  </div>
+</div>
+<script type="text/javascript"  src="{ms:globalskin.url/}js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript"   src="{ms:globalskin.url/}js/jquery-ui.js"></script>
+<script type="text/javascript"   src="{ms:globalskin.url/}js/flex-slider.min.js"></script>
+<script type="text/javascript"   src="{ms:globalskin.url/}js/navigation.min.js"></script>
+<script type="text/javascript"   src="{ms:globalskin.url/}js/jquery.layerslider.js"></script>
+<script type="text/javascript"   src="{ms:globalskin.url/}js/layerslider.transitions.js"></script>
+<script type="text/javascript"  src="{ms:globalskin.url/}js/carousel.js"></script>
+<script type="text/javascript"  src="{ms:globalskin.url/}js/jquery.themepunch.revolution.min.js"></script>
+ <script type="text/javascript"  src="{ms:globalskin.url/}js/instagram.js"></script>
+<script type="text/javascript"  src="{ms:globalskin.url/}js/jquery.twitter.js"></script>
+<script type="text/javascript"  src="{ms:globalskin.url/}js/prettyPhoto.min.js"></script>
+<script type="text/javascript"  src="{ms:globalskin.url/}js/jquery.tooltips.min.js"></script>
+<script type="text/javascript"  src="{ms:globalskin.url/}js/isotope.min.js"></script>
+ <script type="text/javascript"  src="{ms:globalskin.url/}js/jquery.transit.min.js"></script>
+<script type="text/javascript"  src="{ms:globalskin.url/}js/custom.js"></script>
+<script type="text/javascript"  src="{ms:globalskin.url/}js/layui/layui.js"></script>
+ <script type="text/javascript"  src="{ms:globalskin.url/}js/jquery-1.8.3.js"></script>
+ 
+<script>
+layui.use('element', function(){
+  var element = layui.element;
+  
+  //监听导航点击
+  element.on('nav(demo)', function(elem){
+    //console.log(elem)
+    layer.msg(elem.text());
+  });
+});
+
+
+$(function() {
+	// 悬浮窗口
+	$(".yb_conct").hover(function() {
+		$(".yb_conct").css("right", "5px");
+		$(".yb_bar .yb_ercode").css('height', '200px');
+	}, function() {
+		$(".yb_conct").css("right", "-127px");
+		$(".yb_bar .yb_ercode").css('height', '53px');
+	});
+	// 返回顶部
+	$(".yb_top").click(function() {
+		$("html,body").animate({
+			'scrollTop': '0px'
+		}, 300)
+	});
+});
+</script>
+</body>
+</html>

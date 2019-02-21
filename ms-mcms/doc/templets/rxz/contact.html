@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {ms:include filename=connomHeadFile.htm/}
+</head>
+<body>
+  
+    <!--导航-->
+      	{ms:include filename=header.htm/}
+     <!--产品介绍-->
+    <div class="pub_banner">
+        <img src="{ms:globalskin.url/}images/service/banner.png" alt="">
+    </div>
+    <!--服务套餐-->
+    <div class="container">
+        <div class="about_title">
+            <h2>联系我们</h2>
+        </div>
+        <!--联系方式-->
+        <div class="contact_type">
+                <dl>
+                    <dt>
+                        <img src="{ms:globalskin.url/}images/contact/tell.png" alt="">
+                    </dt>
+                    <dd>
+                        <p>电话</p>
+                        <p>159-2061-8199</p>
+                    </dd>
+                </dl>
+            <dl>
+                <dt>
+                    <img src="{ms:globalskin.url/}images/contact/email.png" alt="">
+                </dt>
+                <dd>
+                    <p>E-mail</p>
+                    <p>48372037@qq.com</p>
+                </dd>
+            </dl>
+            <dl>
+                <dt>
+                    <img src="{ms:globalskin.url/}images/contact/address.png" alt="">
+                </dt>
+                <dd>
+                    <p>地址</p>
+                    <p>深圳市龙华区民治街道上芬社区西头新村四区27号A1101</p>
+                </dd>
+            </dl>
+        </div>
+        <!--添加联系-->
+        <div class="add_contact">
+            <div class="add_item">
+                <div class="add_info">
+                    <img src="images/contact/wx.png" alt="">
+                    <p>添加关注</p>
+                    <p>微信公众号</p>
+                    <p>微信：00000000</p>
+                </div>
+                <div class="add_code">
+                    <img src="{ms:globalskin.url/}images/contact/code.png" alt="">
+                </div>
+            </div>
+            <div class="add_item add_item_qq">
+                <div class="add_info">
+                    <img src="images/contact/qq.png" alt="">
+                    <p>添加关注</p>
+                    <p>微信公众号</p>
+                    <p>微信：00000000</p>
+                </div>
+                <div class="add_code">
+                    <img src="{ms:globalskin.url/}images/contact/code_qq.png" alt="">
+                </div>
+            </div>
+        </div>
+        <!--地址-->
+        <div class="map">
+            <img src="images/contact/map.png" alt="">
+        </div>
+
+    </div>
+    <div class="form_box">
+       <div class="container">
+           <h2 class="form_title">在线留言</h2>
+           <form action="#">
+               <div class="form_in">
+                   <div class="form_in_item">
+                       <input type="text" class="input_md" placeholder="姓名">
+                       <input type="text" class="input_md" placeholder="电话">
+                   </div>
+                   <div  class="form_in_item">
+                       <input type="text" class="input_md" placeholder="公司名称">
+                       <input type="text" class="input_md" placeholder="邮箱">
+                   </div>
+                   <div class="area_box">
+                       <textarea name="" id="" cols="30" rows="10" class="area" placeholder="咨询详情"></textarea>
+                   </div>
+                   <div class="yzm_box">
+                       <input type="text" class="input_code" placeholder="验证码">
+                       <img src="{ms:globalskin.url/}images/contact/yzm.png" alt="" class="code_img">
+                   </div>
+                    <button type="submit" class="sub_btn">提交</button>
+               </div>
+           </form>
+       </div>
+    </div>
+    <!--footer-->
+      	{ms:include filename=footer.htm/}
+    <!--浮层-->
+   {ms:include filename=showMsg.htm/}
+</body>
+</html>
+ 
+<script type="text/javascript">
+  $(function(){
+
+      var tabsSwiper = new Swiper('#about_tab',{
+          speed:500,
+          spaceBetween: 20,
+          onSlideChangeStart: function(){
+              $(".about_nav .active").removeClass('active')
+              $(".about_nav a").eq(tabsSwiper.activeIndex).addClass('active')
+          }
+      });
+      $(".about_nav a").on('touchstart mousedown',function(e){
+          e.preventDefault()
+          $(".about_nav .active").removeClass('active')
+          $(this).addClass('active')
+          tabsSwiper.slideTo( $(this).index() )
+      });
+      $(".about_nav a").click(function(e){
+          e.preventDefault()
+      });
+
+
+      var swiper = new Swiper('#list', {
+          pagination: '.swiper-pagination',
+          slidesPerView: 5,
+          slidesPerColumn: 2,
+          paginationClickable: true,
+          spaceBetween: 30,
+          nested:true
+      });
+
+      function _resize(){
+          var w = $(window).width();
+
+          if(w<=700){
+              var swiper = new Swiper('#list', {
+                  pagination: '.swiper-pagination',
+                  slidesPerView: 1,
+                  slidesPerColumn: 2,
+                  paginationClickable: true,
+                  spaceBetween: 30,
+                  nested:true
+              });
+          }else if(w<=991&&w>=768){
+              var swiper = new Swiper('#list', {
+                  pagination: '.swiper-pagination',
+                  slidesPerView: 3,
+                  slidesPerColumn: 2,
+                  paginationClickable: true,
+                  spaceBetween: 30,
+                  nested:true
+              });
+          }else if(w>=992&&w<=1199){
+              var swiper = new Swiper('#list', {
+                  pagination: '.swiper-pagination',
+                  slidesPerView: 4,
+                  slidesPerColumn: 2,
+                  paginationClickable: true,
+                  spaceBetween: 30,
+                  nested:true
+              });
+          }else{
+              var swiper = new Swiper('#list', {
+                  pagination: '.swiper-pagination',
+                  slidesPerView: 5,
+                  slidesPerColumn: 2,
+                  paginationClickable: true,
+                  spaceBetween: 30,
+                  nested:true
+              });
+
+          }
+      }
+      _resize();
+
+      $(window).resize(function(){
+          _resize();
+      });
+
+      $('.list').each(function (index,el) {
+            $(el).hover(function(){
+                $(this).addClass('hover');
+            },function(){
+                $(this).removeClass('hover');
+            });
+      });
+
+
+  });
+
+
+
+</script>
