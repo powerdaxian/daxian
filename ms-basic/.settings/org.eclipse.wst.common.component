@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="ms-basic">
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <property name="context-root" value="ms-basic"/>
+        <property name="java-output-path" value="/ms-basic/target/classes"/>
+        <property name="component.exclusion.patterns" value="*/web.xml,WEB-INF/lib/,WEB-INF/lib/**/*,templets/,WEB-INF/classes/*.xml,WEB-INF/classes/*.properties"/>
+    </wb-module>
+</project-modules>

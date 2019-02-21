@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="ms-mpeople">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <dependent-module archiveName="ms-base-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/ms-base/ms-base">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ms-util-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/ms-util/ms-util">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ms-parser-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/ms-parser/ms-parser">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ms-ueditor-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/ms-ueditor/ms-ueditor">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="ms-mpeople"/>
+        <property name="java-output-path" value="/ms-mpeople/target/classes"/>
+        <property name="component.exclusion.patterns" value="*/web.xml,static,html/,static/,temp,upgrader,WEB-INF/web.xml,WEB-INF/lib/,templets/,WEB-INF/classes/*.xml,WEB-INF/classes/*.properties,*.sh"/>
+    </wb-module>
+</project-modules>
